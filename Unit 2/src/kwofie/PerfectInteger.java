@@ -8,13 +8,13 @@ public class PerfectInteger {
 	 * Thursday, April 27,2017
 	 */ 
 	static Scanner sc = new Scanner(System.in); 
-	public static void main(String[] args){
+	public static void main(String[] args, Scanner Scanner){
 		
-Scanner scan = new Scanner(System.in);
+
 		
-		
+		Scanner = new Scanner(System.in);
 			System.out.println("Enter in how many numbers you want. (to find the perfect numbers)?");
-			int numbers = scan.nextInt();
+			int numbers = sc.nextInt();
 
 			if (numbers <= 0) {
 				System.out.println("Please enter a number more than 0");

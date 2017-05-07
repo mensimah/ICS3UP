@@ -9,8 +9,8 @@ public class Life {
 	 */ 
 	
 public static void main(String[] args){
-			Scanner scan = new Scanner(System.in);
-
+		
+Scanner scan = new Scanner (System.in);
 			String userInput = "yes"; 
 			boolean breakLoop = true; 
 			char[][] field = new char [20][20];
